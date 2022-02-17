@@ -1,0 +1,53 @@
+body{
+    background-color:grey;
+    }
+    /*Main*/
+    main {
+    font-family: sans-serif;
+    width: 600px;
+    margin-left: auto;
+    margin-right:auto;
+    /*Contenido*/
+    }
+    .contenido h1, .contenido h2, .contenido h3 {
+      font-size: 30px;
+    }
+    /*Iconos*/
+    .iconos p {
+     font-weight:bold; /*Especifica el grueso de la letra*/
+     margin-bottom:0;
+    /*section*/ 
+    }
+    section svg {
+     width:44px;
+     margin-right:74px;
+     margin-top:44px;
+     margin-bottom:44px;
+    }
+    section svg:last-child {
+    margin-right:0px
+    }
+    /*Resto*/
+    .resto a {
+      font-family: monospace; /*Es el nombre de la fuente que quieres usar*/
+      font-size:24px;
+      color:black;
+      text-decoration: none;
+      background-color:lightyellow;
+      padding:24px;
+      border:3px solid orange;
+      padding-left:100px; /*Esta propiedad establece el espacio de relleno requerido por todos los lados de un elemento. El área de padding  es el espacio entre el contenido del elemento y su borde ( border)*/
+      padding-right:100px;
+      display:block;
+      text-align: center;
+      margin-bottom: 24px; /*Nota: Padding crea espacio extra dentro de un elemento. En contraste, margin crea espacio extra alrededor de un elemento.*/
+    }
+    .resto a:hover {
+      background-color:orange;
+    }
+    .resto img {
+      width:100%;
+    }
+    .resto h4 {
+      text-align: center;
+    }
